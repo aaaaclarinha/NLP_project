@@ -8,3 +8,5 @@
 
 <p align="justify">Esses artigos foram pré-analisados, foi selecionado então um conjuto menor de arquivos, sobre os quais foram aplicados recursos de processamento de linguagem natural, afim de entender como o conteúdo presente neles se relaciona com o objetivo do projeto. </p> 
 
+<p align="justify">As etapas iniciais descritas se encontram no notebook <code><a href="https://github.com/aaaaclarinha/NLP_project/blob/main/mineracao_e_tokenizacao.ipynb">mineracao_e_tokenizacao</a></code>. </p>
+
