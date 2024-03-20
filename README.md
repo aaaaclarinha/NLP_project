@@ -1,6 +1,8 @@
-# NLP_project
+<h1> NLP_project </h1>
 
 <p aling="justify">Repositório para desenvolvimento do projeto em grupo de Processamento de Linguagem Natural (NLP), na disciplina de Práticas Computacionais Avançadas, da Ilum Escola de Ciência.</p>
+
+<hr>
 
 <p align="center"><img src="https://github.com/aaaaclarinha/NLP_project/assets/106619091/d9b74878-08c3-46ff-aecf-d6bc6c703f3e"></p>
 
