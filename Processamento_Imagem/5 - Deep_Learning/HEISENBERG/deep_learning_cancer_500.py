@@ -19,7 +19,7 @@ os.makedirs('saved_models', exist_ok=True)
 os.makedirs('saved_logs', exist_ok=True)
 
 # Set random seeds for reproducibility
-EPOCHS = 100
+EPOCHS = 500
 RANDOM_SEED = 1024
 
 # Hyperparameters
