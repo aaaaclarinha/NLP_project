@@ -1,0 +1,15 @@
+Class: lung_aca
+AUC: 0.50
+FPR: 0.0, 1.0
+TPR: 0.0, 1.0
+
+Class: lung_n
+AUC: 0.50
+FPR: 0.0, 1.0
+TPR: 0.0, 1.0
+
+Class: lung_scc
+AUC: 0.50
+FPR: 0.0, 1.0
+TPR: 0.0, 1.0
+

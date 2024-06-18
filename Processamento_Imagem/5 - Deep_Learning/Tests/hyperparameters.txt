@@ -1,0 +1,4 @@
+Epochs: 1
+Optimizer: Adam
+Kernel Initializer: he_uniform
+Dropout: 0.25

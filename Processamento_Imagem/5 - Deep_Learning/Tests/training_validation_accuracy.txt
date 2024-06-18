@@ -1,0 +1,2 @@
+# Training Accuracy,Validation Accuracy
+2.666666805744171143e-01,3.333333432674407959e-01

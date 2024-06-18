@@ -231,9 +231,17 @@ def compute_confusion_matrix(ground_truth, prediction_test):
 with ThreadPoolExecutor() as executor:
     cm = executor.submit(compute_confusion_matrix, ground_truth, prediction_test).result()
 
-sns.heatmap(cm, annot=True)
-plt.savefig('confusion_matrix.jpg')
-np.savetxt('confusion_matrix.txt', cm, delimiter=',')
+# Normalize the confusion matrix
+cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+
+# Plot the normalized confusion matrix with class labels
+plt.figure(figsize=(10, 7))
+sns.heatmap(cm_normalized, annot=True, fmt='.2f', xticklabels=classes, yticklabels=classes)
+plt.xlabel('Predicted')
+plt.ylabel('True')
+plt.title('Normalized Confusion Matrix')
+plt.savefig('normalized_confusion_matrix.jpg')
+np.savetxt('normalized_confusion_matrix.txt', cm_normalized, delimiter=',')
 plt.show()
 
 # Compute ROC AUC for each class
